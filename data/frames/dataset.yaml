@@ -1,0 +1,6 @@
+path: /tmp/$USER/f1_dataset
+train: train/images
+val: val/images
+
+nc: 1
+names: ['f1_car']

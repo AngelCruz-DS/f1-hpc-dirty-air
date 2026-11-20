@@ -1,0 +1,17 @@
+﻿# Entornos virtuales y cache de Python
+.venv/
+.venv-1/
+__pycache__/
+*.pyc
+
+# Videos pesados y datasets masivos (se descargan/generan con los scripts)
+data/raw_video/leclerc_onboard_collection.mp4
+data/raw_video/chunks/
+data/telemetry/cache/
+data/frames/images/
+data/frames/labels/
+data/frames/train/
+data/frames/val/
+models/*.pt
+yolov8*.pt
+runs/
